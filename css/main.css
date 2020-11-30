@@ -21,10 +21,16 @@ header {
   background-color: #e3af6b;
 }
 
-h1 {
+h1, small, nav {
   font-family: 'Cinzel', serif;
   color: #fff;
 }
+
+h2, h3, p {
+  font-family: 'Merriweather', serif;
+  color: #000;
+}
+
 nav a {
   color: #fff;
   text-decoration-color: rgba(55, 131, 163, .5);
