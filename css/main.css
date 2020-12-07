@@ -65,6 +65,7 @@ nav ul {
 .nav a:hover {
   color: #fff;
   background-color: #000;
+  padding: .5rem;
 }
 
 li {
