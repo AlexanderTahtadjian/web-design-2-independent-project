@@ -140,6 +140,9 @@ li {
 .art {
   margin: 0;
   display: grid;
+  grid-template-areas:
+    "artwork-1 artwork-2 artwork-3"
+    "artwork-4 artwork-5 artwork-6"
   grid-template-columns: 2fr;
   grid-template-rows: repeat(3, 1fr);
   grid-gap: 1rem;
