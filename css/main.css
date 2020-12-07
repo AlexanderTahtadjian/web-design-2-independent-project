@@ -75,12 +75,13 @@ li {
   margin-bottom: 1.5rem;
 }
 
-.page-1, .page-2,{
+.section-1, .section-2,{
   margin: 0;
   display: block;
   margin-bottom: 1.5rem;
 }
-section {
+
+.section-3 {
   margin: 0;
   display: grid;
   grid-template-columns: 1fr;
