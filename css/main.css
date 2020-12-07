@@ -21,6 +21,11 @@ header {
   background-color: #e3af6b;
 }
 
+.logo {
+  display: block;
+  width: 64px;
+}
+
 h1, small, nav {
   font-family: 'Cinzel', serif;
   color: #fff;
