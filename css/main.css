@@ -30,7 +30,7 @@ header {
 }
 
 h1, small, nav {
-  font-family: "Cinzel", serif;
+  font-family: Cinzel, serif;
   color: #fff;
 }
 
@@ -41,7 +41,7 @@ h1, small, nav {
 }
 
 h2, h3, p {
-  font-family: "Merriweather", serif;
+  font-family: Merriweather, serif;
   color: #000;
 }
 
