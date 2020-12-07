@@ -90,6 +90,10 @@ li {
   margin-bottom: 1.5rem;
 }
 
+img {
+  width: 320px;
+}
+
 article {
   display: flex;
   flex-direction: column;
@@ -123,6 +127,10 @@ footer {
 
   h1 {
     align-items: start;
+  }
+
+  img {
+    width: 500px;
   }
 
 }
