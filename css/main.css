@@ -75,6 +75,11 @@ li {
   margin-bottom: 1.5rem;
 }
 
+.page-1, .page-2,{
+  margin: 0;
+  display: block;
+  margin-bottom: 1.5rem;
+}
 section {
   margin: 0;
   display: grid;
