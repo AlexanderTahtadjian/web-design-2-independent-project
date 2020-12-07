@@ -34,6 +34,12 @@ h1, small, nav {
   color: #fff;
 }
 
+.quote-text {
+  font-size: 2rem;
+  font-family: 'Marck Script', cursive;
+  color: #fff;
+}
+
 h2, h3, p {
   font-family: 'Merriweather', serif;
   color: #000;
@@ -67,6 +73,46 @@ li {
   border-style: solid;
   margin: auto 0 0;
   padding: .5em 1em .6em;
+}
+
+.quote {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr))
+}
+
+.hover-box {
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+  color: #fff;
+}
+
+.hover-box h3 {
+  position: absolute;
+  bottom: -4em;
+  width: 100%;
+  padding: 1rem;
+  margin-left: 0;
+  text-align: center;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.9);
+  transition: all .2s linear;
+}
+
+.hover-box:hover h3,
+.hover-box:focus h3 {
+  bottom: 0;
+}
+
+.hover-box img {
+  filter: grayscale(100%);
+  transition: all .2s linear;
+}
+
+.hover-box:hover img,
+.hover-box:focus img {
+  filter: grayscale(0);
+  transform: scale(1.1);
 }
 
 .artwork {
