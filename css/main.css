@@ -50,6 +50,10 @@ h2, h3, p {
   padding: 2rem;
 }
 
+.profile {
+  padding: 2rem;
+}
+
 img {
   background-color: gray;
 }
