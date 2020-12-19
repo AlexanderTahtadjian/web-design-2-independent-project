@@ -76,8 +76,8 @@ nav ul {
 }
 
 .nav a:hover {
-  color: #fff;
-  background-color: #000;
+  color: gray;
+  background-color: #fff;
   padding: .5rem;
 }
 
