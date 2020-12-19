@@ -63,7 +63,7 @@ img {
 }
 
 nav a {
-  color: gray;
+  color: blue;
 }
 
 nav ul {
@@ -76,7 +76,7 @@ nav ul {
 }
 
 .nav a:hover {
-  color: gray;
+  color: blue;
   background-color: #fff;
   padding: .5rem;
 }
