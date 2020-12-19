@@ -29,13 +29,12 @@ header {
   width: 64px;
 }
 
-h1, nav {
+h1, small, nav {
   font-family: Cinzel, serif;
   color: #fff;
 }
 
 small {
-  font-family: Cinzel, serif;
   color: #000;
 }
 
@@ -64,7 +63,7 @@ img {
 }
 
 nav a {
-  color: #fff;
+  color: gray;
 }
 
 nav ul {
