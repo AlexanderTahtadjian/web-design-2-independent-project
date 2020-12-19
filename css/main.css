@@ -29,9 +29,14 @@ header {
   width: 64px;
 }
 
-h1, small, nav {
+h1, nav {
   font-family: Cinzel, serif;
   color: #fff;
+}
+
+small {
+  font-family: Cinzel, serif;
+  color: #000;
 }
 
 .quote-text {
