@@ -94,7 +94,7 @@ li {
   color: #fff;
 }
 
-.hover-box h3 {
+.hover-box p {
   position: absolute;
   bottom: -4em;
   width: 100%;
@@ -106,8 +106,8 @@ li {
   transition: all .2s linear;
 }
 
-.hover-box:hover h3,
-.hover-box:focus h3 {
+.hover-box:hover p,
+.hover-box:focus p {
   bottom: 0;
 }
 
